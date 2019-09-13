@@ -1,0 +1,84 @@
+td {
+	width: 15px;
+	height: 15px;
+}
+.blank {
+	background-color: #F5F5F5;
+}
+.i {
+	background-color: #00BCD4;
+}
+.j {
+	background-color: #03A9F4
+}
+.l {
+	background-color: #FF9800;
+}
+.o {
+	background-color: #FFEB3B;
+}
+.s {
+	background-color: #4CAF50;
+}
+.t {
+	background-color: #9C27B0;
+}
+.z {
+	background-color: #F44336;
+}
+
+.nextBlank, body {
+	background-color: #616161;
+}
+
+#showDiv {
+	float: left;
+}
+
+#nextBox {
+	float: left;
+	padding-top: 50px;
+}
+#nextTip {
+	padding-left: 20px;
+	padding-bottom: 15px;
+}
+#nextTable {
+	padding-left: 25px;
+}
+#scoreTip {
+	width: 100px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+#score, #line {
+	width: 100px;
+	text-align: center;
+}
+#lineTip {
+	padding-top: 20px;
+	width: 100px;
+	text-align: center;
+}
+#pause {
+	padding-top: 10px;
+	width: 100px;
+	text-align: center;
+}
+#box {
+	width: 100%;
+}
+.shadow {
+	background-color: #BDBDBD;
+}
+#helpDiv {
+	position: absolute;
+	display: none;
+	left: 100px;
+	top: 100px;
+}
+#helpcoindiv {
+	width: 100px;
+	text-align: center;
+	padding-top: 10px;
+}
