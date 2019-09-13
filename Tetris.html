@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>俄罗斯方块</title>
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.color.js" type="text/javascript"></script>
+<!--jquery不能动画修改颜色，调用第三方库-->
+<script src="js/tetris.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="box">
+		<div id="showDiv">
+			<table id="show" cellspacing="0.5"></table>
+		</div>
+		<div id="nextBox">
+			<div id="nextTip">下一个</div>
+			<div id="nextTable">
+				<table id="next" cellspacing="0.5"></table>
+			</div>
+			<div id="scoreTip">得分</div>
+			<div id="score">0</div>
+			<div id="lineTip">消行</div>
+			<div id="line">0</div>
+			<div id="pause">
+				<input type="button" id="pauseButton" value="暂停" onclick="pause()">
+			</div>
+			<div id="helpcoindiv">
+				<img src="img/help_icon.png" id="help" width="20px" height="20px">
+			</div>
+		</div>
+		<div id="helpDiv">
+			<img src="img/help.png" width="180px" height="136px">
+		</div>
+		<div hidden="hidden" class="blank" id="blank"></div>
+	</div>
+</body>
+</html>
